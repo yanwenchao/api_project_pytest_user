@@ -1,0 +1,11 @@
+2020-12-11 09:56:30,260 - [handle_log.py-->line:51] - ERROR: 用于测试的error等级日志信息
+2020-12-11 09:56:30,261 - [handle_log.py-->line:52] - CRITICAL: 用于测试的critical等级日志信息
+2020-12-11 09:57:09,379 - [handle_log.py-->line:51] - ERROR: 用于测试的error等级日志信息
+2020-12-11 09:57:09,380 - [handle_log.py-->line:52] - CRITICAL: 用于测试的critical等级日志信息
+2020-12-11 16:36:03,425 - [handle_sendemail.py-->line:45] - ERROR: {'["327002138@qq.com","yanwenchao@yuanbaobaoxian.com"]': (501, b'Bad address syntax. http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=20022&&no=1000730')}
+Traceback (most recent call last):
+  File "D:/pycharm-workspace/user_project/api-project/pytest_26_project/common_tools/handle_sendemail.py", line 42, in send_email
+    self.smtplib.sendmail(from_addr=self.user, to_addrs=self.to_addrs, msg=message.as_string())
+  File "D:\tools\python\lib\smtplib.py", line 881, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'["327002138@qq.com","yanwenchao@yuanbaobaoxian.com"]': (501, b'Bad address syntax. http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=20022&&no=1000730')}

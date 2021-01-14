@@ -1,3 +1,0 @@
-2020-12-07 10:12:07,580 - [handle_log.py-->line:51] - ERROR: 用于测试的error等级日志信息
-2020-12-07 10:16:55,162 - [handle_log.py-->line:51] - ERROR: 用于测试的error等级日志信息
-2020-12-07 10:16:55,162 - [handle_log.py-->line:52] - CRITICAL: 用于测试的critical等级日志信息
